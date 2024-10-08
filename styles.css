@@ -1,0 +1,87 @@
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+* {
+  font-size: 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+}
+
+.wrapper {
+  background-color: rgb(19, 19, 19);
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: rgb(32, 31, 31);
+  padding: 20px;
+  border-radius: 10px;
+  width: 25%;
+  height: 89%;
+  text-align: center;
+  justify-content: center;
+  max-width: 768px;
+  transition: all;
+}
+
+@media (max-width: 1440px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 95%;
+  }
+}
+
+.attribution {
+  text-align: center;
+}
+.pic {
+  border-radius: 50%;
+}
+
+.name {
+  color: white;
+  font-size: 25px;
+}
+
+.place {
+  color: rgb(213, 247, 17);
+  top: -12px;
+  position: relative;
+  font-size: 14px;
+  right: 9px;
+}
+
+.line {
+  color: white;
+  position: relative;
+  right: 24px;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 45%;
+  margin-left: 40px;
+}
+
+.social-icons {
+  width: 90%;
+  height: 90%;
+  padding: auto;
+  border-radius: 10px;
+  background-color: rgb(62, 61, 61);
+  display: center;
+  margin: 10px;
+  color: white;
+}
